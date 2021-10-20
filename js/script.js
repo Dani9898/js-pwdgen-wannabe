@@ -14,6 +14,7 @@ let colore = prompt("Inserisci il tuo colore preferito");
 console.log(colore);
 
 // stampiamo la password
-let userPassword = `${nome}${cognome}${colore}21`;
+let numero = "21";
+let userPassword = `${nome}${cognome}${colore}${numero}`;
 document.getElementById("pw-gen").innerHTML = "La password assegnata è " + userPassword;
-console.log(userPassword + 21);
+console.log(userPassword);
